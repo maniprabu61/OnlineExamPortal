@@ -1,0 +1,172 @@
+{
+  "admin": [
+    {
+      "name": "admin",
+      "password": "1234"
+    }
+  ],
+  "subject": [
+    {
+      "name": "Maths",
+      "id": 1
+    }
+  ],
+  "exam": [
+    {
+      "name": "Maths",
+      "desc": "this is maths1",
+      "level": "easy",
+      "passMarks": "4",
+      "totalQuestion": "5",
+      "marks": "5",
+      "date": "16-11-2023 18:5:37",
+      "id": 1
+    }
+  ],
+  "Question": [
+    {
+      "qname": "40-20=?",
+      "optionOne": "10",
+      "optionTwo": "20",
+      "optionThree": "40",
+      "optionFour": "56",
+      "answer": "20",
+      "ename": {
+        "id": "1"
+      },
+      "sname": {
+        "name": "Maths1"
+      },
+      "id": 2
+    },
+    {
+      "qname": "10-6=?",
+      "optionOne": "6",
+      "optionTwo": "4",
+      "optionThree": "1",
+      "optionFour": "9",
+      "answer": "4",
+      "ename": {
+        "id": "1"
+      },
+      "sname": {
+        "name": "Maths1"
+      },
+      "id": 3
+    },
+    {
+      "qname": "3+3=?",
+      "optionOne": "3",
+      "optionTwo": "5",
+      "optionThree": "6",
+      "optionFour": "2",
+      "answer": "6",
+      "ename": {
+        "id": "1"
+      },
+      "sname": {
+        "name": "Maths1"
+      },
+      "id": 4
+    },
+    {
+      "qname": "6+3=?",
+      "optionOne": "3",
+      "optionTwo": "6",
+      "optionThree": "9",
+      "optionFour": "1",
+      "answer": "9",
+      "ename": {
+        "id": "1"
+      },
+      "sname": {
+        "name": "Maths1"
+      },
+      "id": 5
+    },
+    {
+      "qname": "32+8=?",
+      "optionOne": "42",
+      "optionTwo": "55",
+      "optionThree": "40",
+      "optionFour": "12",
+      "answer": "40",
+      "ename": {
+        "id": "1"
+      },
+      "sname": {
+        "name": "Maths1"
+      },
+      "id": 6
+    }
+  ],
+  "Result": [
+    {
+      "status": "Pass",
+      "score": 4,
+      "email": {
+        "email": "test@gmail.com"
+      },
+      "edate": "16-11-2023 18:12:44",
+      "sname": {
+        "name": "Maths"
+      },
+      "totalMarks": "5",
+      "examId": {
+        "id": "1"
+      },
+      "totalQuestion": "5",
+      "id": 1
+    },
+    {
+      "status": "Fail",
+      "score": 2,
+      "email": {
+        "email": "test1@gmail.com"
+      },
+      "edate": "16-11-2023 18:30:13",
+      "sname": {
+        "name": "Maths"
+      },
+      "totalMarks": "5",
+      "examId": {
+        "id": "1"
+      },
+      "totalQuestion": "5",
+      "id": 2
+    },
+    {
+      "status": "Pass",
+      "score": 5,
+      "email": {
+        "email": "test1@gmail.com"
+      },
+      "edate": "16-11-2023 18:34:13",
+      "sname": {
+        "name": "Maths"
+      },
+      "totalMarks": "5",
+      "examId": {
+        "id": "1"
+      },
+      "totalQuestion": "5",
+      "id": 3
+    }
+  ],
+  "user": [
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "dob": "2000-01-06",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "test1",
+      "email": "test1@gmail.com",
+      "dob": "2015-12-29",
+      "password": "1234",
+      "id": 2
+    }
+  ]
+}
